@@ -27,7 +27,7 @@ class WaterMark {
   render(option) {
     this.remove()
 
-    utils.assign(this, waterMarkCanvasOption, option)
+    Object.assign(this, waterMarkCanvasOption, option)
 
     this.genCanvas()
     // 异步：处理ie多次删除问题
@@ -272,4 +272,4 @@ class WaterMark {
   }
 }
 
-export WaterMark
+export default  WaterMark

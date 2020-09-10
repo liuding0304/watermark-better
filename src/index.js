@@ -2,7 +2,7 @@
  * 水印功能 兼容到ie9
  *
  * 使用：
- *  watermark.init({text: '名字-工号'}) 生成水印
+ *  watermark.init({text: '水印文本'}) 生成水印
  *  watermark.clear() 清除水印
  */
 import utils from './utils'

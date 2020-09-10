@@ -110,4 +110,4 @@ class Observe {
 }
 
 
-export observe
+export default  observe
